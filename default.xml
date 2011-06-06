@@ -45,6 +45,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="android_external_clearsilver" remote="cm" />
+  <project path="external/compcache" name=android_external_compcache" remote="cm" revision="master" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -147,6 +148,7 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="cm" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
@@ -163,7 +165,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -171,7 +173,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
