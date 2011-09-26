@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
-
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
@@ -13,9 +9,6 @@
            
   <remote  name= "themes"
            fetch="git://github.com/tmobile/" />
-
-  <remote  name="aosp-gtablet"
-           fetch="git://github.com/" />
 
   <default revision="gingerbread"
            remote="cm" />
