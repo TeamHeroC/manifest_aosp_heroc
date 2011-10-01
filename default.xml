@@ -17,7 +17,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="cm" />
-  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader/legacy" />
+  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
@@ -30,8 +30,8 @@
   <project path="external/bison" name="android_external_bison" />
   <project path="external/blktrace" name="android_external_blktrace" />
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cm" />
-  <project path="external/bluetooth/glib" name="android_external_bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="android_external_bluetooth/hcidump" />
+  <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" />
+  <project path="external/bluetooth/hcidump" name="android_external_bluetooth_hcidump" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="android_external_bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm"  />
@@ -113,6 +113,7 @@
   <project path="external/v8" name="android_external_v8" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" revision="master" />
   <project path="external/webkit" name="android_external_webkit" remote="cm" />
+  <project path="external/webp" name="android_external_webp" remote="cm" revision="master" />
   <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cm" />
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="cm" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm"/>
@@ -160,7 +161,6 @@
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" />
-  <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
