@@ -23,7 +23,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="cm" />
-  <project path="bootable/bootloader/legacy" name="platform_bootloader_legacy" />
+  <project path="bootable/bootloader/legacy" name="platform_bootloader_legacy" revision="master" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
@@ -119,6 +119,7 @@
   <project path="external/v8" name="android_external_v8" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" revision="master" />
   <project path="external/webkit" name="android_external_webkit" remote="cm" />
+  <project path="external/webp" name="android_external_webp" remote="cm" revision="master" />
   <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cm" />
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="cm" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm"/>
@@ -166,7 +167,6 @@
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="cm" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_soundrecorder" />
-  <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="platform_packages_apps_stk" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
