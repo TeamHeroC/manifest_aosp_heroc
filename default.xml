@@ -207,6 +207,6 @@
 
   <project path="vendor/aosp" name="vendor_aosp" remote="heroc" revision="master" />
   <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="heroc" revision="master" />
-  <project path="manifest" name="manifest_aosp_heroc" remote="heroc" revision="master" />
+  <project path="manifest" name="manifest_aosp_heroc" remote="heroc" revision="googlesource" />
 
 </manifest>
