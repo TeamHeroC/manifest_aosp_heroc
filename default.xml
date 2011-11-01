@@ -59,7 +59,7 @@
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="android_external_flac" remote="cm" />
-  <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/freetype" name="android_external_freetype" remote="cm" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
@@ -76,6 +76,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/libexif" name="android_external_libexif" remote="cm" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" />
@@ -125,11 +126,11 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zlib" name="android_external_zlib" remote="cm" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cm" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="cm" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" />
@@ -141,37 +142,40 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="android_packages_apps_AccountsAndSyncSettings" remote="cm" />
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="cm" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="cm" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="cm" />
   <project path="packages/apps/CMScreenshot" name="android_packages_apps_CMScreenshot" remote="cm" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="cm" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
+  <project path="packages/apps/Gallery3D" name="android_packages_apps_Gallery3D" remote="cm" />
+  <project path="packages/apps/GanOptimizer" name="android_packages_apps_GanOptimizer" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="heroc" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="cm" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="cm" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cm" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" />
@@ -184,7 +188,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="cm" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
